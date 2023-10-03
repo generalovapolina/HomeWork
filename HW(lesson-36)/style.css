@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+section {
+    background-color: rgb(223, 200, 250);
+    height: 500px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: 1px solid rgb(0, 0, 0);
+    overflow: scroll;
+
+}
+
+.block {
+    background-color: rgb(192, 159, 119);
+    max-width: 250px;
+    min-height: 200px;
+    border-radius: 30px;
+    padding: 15px 25px 5px 30px;
+    margin: 5px 10px 15px 5px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: inset -1px -1px 9px 5px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
